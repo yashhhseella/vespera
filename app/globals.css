@@ -1,24 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
-    --background: 240 10% 3.9%; /* Near-black */
-    --foreground: 0 0% 98%; /* Off-white */
- 
-    --primary: 0 0% 98%; /* Primary buttons are off-white */
-    --primary-foreground: 240 5.9% 10%; /* Text on primary buttons is near-black */
-  }
-}
- 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1; /* Enable nice font ligatures */
+    font-family: var(--font-inter);
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font-inter);
+}
