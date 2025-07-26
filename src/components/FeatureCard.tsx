@@ -19,14 +19,14 @@ const FeatureCard = ({ icon, title, subtitle }: FeatureCardProps) => {
   };
 
   return (
-    <div className="bg-card hover:bg-card-hover transition-colors duration-300 rounded-2xl p-8 text-center group cursor-pointer">
+    <div className="neon-glow-card p-8 text-center group cursor-pointer transition-all duration-300 hover:shadow-neon-glow">
       <div className="flex justify-center mb-6">
         {renderIcon()}
       </div>
-      <h3 className="text-sm text-text-muted mb-2 uppercase tracking-wider">
+      <h3 className="text-sm text-text-muted mb-2 uppercase tracking-wider font-medium">
         {subtitle}
       </h3>
-      <h2 className="text-2xl font-bold text-foreground">
+      <h2 className="text-2xl font-bold text-foreground font-inter">
         {title}
       </h2>
     </div>

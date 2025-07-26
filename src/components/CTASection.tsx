@@ -5,15 +5,15 @@ const CTASection = () => {
     <section className="py-20 bg-card">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-black text-foreground mb-4 font-inter">
             Bring Your Club to Life
           </h2>
-          <p className="text-xl text-text-muted mb-8">
+          <p className="text-xl text-text-muted mb-8 font-inter font-medium">
             Request access. Make glow.
           </p>
           <Button 
             size="lg" 
-            className="bg-geometric-white text-background hover:bg-geometric-white/90 px-8 py-3 text-lg font-medium rounded-full"
+            className="bg-geometric-white text-background hover:bg-geometric-white/90 px-8 py-3 text-lg font-semibold rounded-full font-inter shadow-neon-glow hover:shadow-neon-glow transition-all duration-300"
           >
             Request Demo
           </Button>

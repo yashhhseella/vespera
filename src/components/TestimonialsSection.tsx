@@ -28,10 +28,10 @@ const TestimonialsSection = () => {
     <section id="testimonials" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-black text-foreground mb-4 font-inter">
             Clubs Love Vespera
           </h2>
-          <p className="text-2xl text-text-muted">
+          <p className="text-2xl text-text-muted font-inter font-medium">
             What they say
           </p>
         </div>

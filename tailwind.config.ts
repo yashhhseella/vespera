@@ -67,6 +67,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
+			boxShadow: {
+				'neon-pink': '0 0 20px rgba(255, 0, 204, 0.4)',
+				'neon-blue': '0 0 20px rgba(51, 51, 255, 0.4)',
+				'neon-glow': '0 0 20px rgba(255, 0, 204, 0.4), 0 0 20px rgba(51, 51, 255, 0.4)',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

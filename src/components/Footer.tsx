@@ -4,18 +4,18 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
           <div className="flex flex-col space-y-4">
-            <div className="text-xl font-bold text-foreground">
+            <div className="text-xl font-bold text-foreground font-inter">
               Vespera<span className="text-primary">®</span>
             </div>
-            <div className="text-text-muted text-sm">
+            <div className="text-text-muted text-sm font-inter">
               Bring the night to life.
             </div>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
             <div>
-              <h4 className="font-semibold text-foreground mb-3">Social</h4>
-              <div className="space-y-2 text-text-muted">
+              <h4 className="font-semibold text-foreground mb-3 font-inter">Social</h4>
+              <div className="space-y-2 text-text-muted font-inter">
                 <div>Instagram</div>
                 <div>Twitter</div>
                 <div>LinkedIn</div>

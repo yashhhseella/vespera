@@ -5,15 +5,15 @@ const HeroSection = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-card">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6">
+          <h1 className="text-5xl md:text-7xl font-black text-foreground mb-6 font-inter tracking-tight">
             Book the Night.
           </h1>
-          <p className="text-3xl md:text-5xl text-text-muted mb-12">
+          <p className="text-3xl md:text-5xl text-text-muted mb-12 font-inter font-medium">
             VIP tables. Seamless.
           </p>
           <Button 
             size="lg" 
-            className="bg-geometric-white text-background hover:bg-geometric-white/90 px-8 py-3 text-lg font-medium rounded-full"
+            className="bg-geometric-white text-background hover:bg-geometric-white/90 px-8 py-3 text-lg font-semibold rounded-full font-inter shadow-neon-glow hover:shadow-neon-glow transition-all duration-300"
           >
             Request Demo
           </Button>
